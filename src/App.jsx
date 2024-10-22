@@ -1,35 +1,54 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState } from 'react';
+import Work from "./components/Work.jsx";
+import Skills from "./components/Skills.jsx";
+import About from "./components/About.jsx";
+import Contact from "./components/Contact.jsx";
+import './index.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [modalValue, setModalValue] = useState('');
+
+  const modalHandler = (modalName) => {
+    setModalValue(modalName);
+  };
+
+  const renderModal = () => {
+    switch (modalValue) {
+      case 'work':
+        return <Work />;
+      case 'skills':
+        return <Skills />;
+      case 'about':
+        return <About />;
+      case 'contact':
+        return <Contact />;
+      default:
+        return null;
+    }
+  };
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="mainHero">
+        <div className="folio">Folio 2024</div>
+        <div className="lang">Esp</div>
+        <div className="inner">
+          <div className="name">
+            <span className="main-name">Andrés</span>
+            <span> González</span>
+          </div>
+          <div className="charge">Front end / ui developer</div>
+          <nav>
+            <button onClick={() => modalHandler('work')}>Work</button>
+            <button onClick={() => modalHandler('skills')}>Skills</button>
+            <button onClick={() => modalHandler('about')}>About me</button>
+            <button onClick={() => modalHandler('contact')}>Contact</button>
+          </nav>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {renderModal()}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
