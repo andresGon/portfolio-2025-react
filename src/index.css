@@ -3,7 +3,57 @@
 :root{
   --red:#E40038;
   --beige:#F8F5E1;
+  --duration: 2s; /* Duración de la animación */
+  --total: 6;    /* Total de elementos */
 }
+
+@keyframes bounceColor {
+  0% {
+    transform: translateY(0);
+    color: var(--red); /* Color inicial */
+  }
+  30% {
+    transform: translateY(-10px);
+    color: #e74c3c; /* Color en el punto alto del rebote */
+  }
+  60% {
+    transform: translateY(0);
+    color: #f1c40f; /* Color en el regreso */
+  }
+  100% {
+    transform: translateY(0);
+    color: var(--red); /* Vuelve al color inicial */
+  }
+}
+
+.char {
+  animation: bounceColor 1.5s ease-in-out infinite;
+  animation-delay: calc(var(--index) * 0.15s);
+  display: inline-block;
+}
+
+
+.char1{
+  --index:1;
+}
+.char2{
+  --index:2;
+}
+.char3{
+  --index:3;
+}
+.char4{
+  --index:4;
+}
+.char5{
+  --index:5;
+}
+.char6{
+  --index:6;
+}
+
+
+
 
 .roboto-thin {
   font-family: "Roboto", sans-serif;
@@ -69,18 +119,17 @@ body {
 
 .name {
   span{
-    display: block;
     line-height: .8;
-    &:nth-child(1){
-      font-size: 7rem;
-      font-weight: bolder;
-    }
-    &:nth-child(2){
-      font-size: 5.6rem;
-      font-weight: bold;
-      animation-delay: .3s;
-    }
+    font-size: 7rem;
+    font-weight: bolder;
   }
+}
+
+.last-name{
+  font-weight: bolder;
+  font-size: 5.4rem;
+  line-height: 4.6rem;
+  margin: 0;
 }
 
 .charge{
@@ -109,39 +158,3 @@ body {
   font-weight: bolder;
 }
 
-
-.rubberBand {
-  animation-name: rubberBand;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes rubberBand {
-  from {
-    transform: scale3d(1, 1, 1);
-  }
-
-  30% {
-    transform: scale3d(1.25, 0.75, 1);
-  }
-
-  40% {
-    transform: scale3d(0.75, 1.25, 1);
-  }
-
-  50% {
-    transform: scale3d(1.15, 0.85, 1);
-  }
-
-  65% {
-    transform: scale3d(0.95, 1.05, 1);
-  }
-
-  75% {
-    transform: scale3d(1.05, 0.95, 1);
-  }
-
-  to {
-    transform: scale3d(1, 1, 1);
-  }
-}
