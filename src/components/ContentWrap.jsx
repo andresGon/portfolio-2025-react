@@ -8,30 +8,36 @@ import Contact from './Contact';
 const ContentWrap = () =>{
     const { modalStatus, closeModal, modalContent } = useContext(modalContext)
     const handleClose = () =>{
-        closeModal()
+        const modalWrap = document.querySelector('.modal-wrap')
+        modalWrap.classList.add('slideOutDown')
+        setTimeout(() => {
+            closeModal()
+        }, 450);
     }
 
+    const components = {
+      work: Work,
+      skills: Skills,
+      about: About,
+      contact: Contact,
+    };
+    
     const renderModal = () => {
-        switch (modalContent) {
-          case 'work':
-            return <Work />;
-          case 'skills':
-            return <Skills />;
-          case 'about':
-            return <About />;
-          case 'contact':
-            return <Contact />;
-          default:
-            return null;
-        }
-    }
+      const Component = components[modalContent];
+      return Component ? <Component /> : null;
+    };
+    
     return(
         <>
         {modalStatus && (
             <>
-                <p>wrap content</p>
-                {renderModal()}
-                <button onClick={()=>handleClose()}>cerrar</button>
+                <div className="modal-wrap slideInUp">
+                    <div className="modal-inner">
+                      {renderModal()}
+                      <button onClick={()=>handleClose()}>cerrar</button>
+                    </div>
+                </div>
+                
             </>
             
         )}

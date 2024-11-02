@@ -1,7 +1,7 @@
 function Work() {
     return(
         <>
-            <p>Work / Trabajos</p>
+            <div className="title-1">Work</div>
         </>
     )
 }

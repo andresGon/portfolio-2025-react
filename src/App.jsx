@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import StateApp from './context/stateApp.jsx';
 import ContentWrap from './components/ContentWrap.jsx';
 import Nav from './components/Nav.jsx';
-import './index.css';
+import './index.scss';
 
 function App() {
 

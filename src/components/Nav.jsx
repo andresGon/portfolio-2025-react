@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { modalContext } from '../context/modalContext';
 
 const Nav = () =>{
-    const { modalStatus, openModal, modalContent } = useContext(modalContext)
+    const { openModal } = useContext(modalContext)
     const handleModal=(content)=>{
         openModal(content)
     }

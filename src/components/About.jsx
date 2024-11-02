@@ -2,7 +2,7 @@ function About() {
 
     return(
         <>
-            <p>About</p>
+            <div className="title-1">About</div>
         </>
     )
 }
