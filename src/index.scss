@@ -5,6 +5,7 @@
   --beige:#F8F5E1;
   --duration: 2s; /* Duración de la animación */
   --total: 6;    /* Total de elementos */
+  --dark-bg:#262e38;
 }
 
 @keyframes bounceColor {
@@ -84,8 +85,7 @@ body.light {
 }
 
 body.dark {
-  background-color: #121212;
-  color: #ffffff;
+  background-color: var(--dark-bg);
 }
 
 .mainHero.light {
@@ -103,8 +103,36 @@ body {
   background:var(--beige);
   font-weight: 400;
   font-style: normal;
+  transition: .3s;
 }
 
+/* ======== header =======*/
+.header{
+  width: 100%;
+  padding: 14px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  &-col{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+.folio{
+  font-size: .9rem;
+  font-weight: bolder;
+}
+.lang, .theme-btn{
+  font-size: .9rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+/* ============ main hero ==========*/
 .mainHero{
   width: 100vw;
   height: 100vh;
@@ -161,24 +189,7 @@ body {
   font-weight: bold;
   font-size: 1.5rem;
 }
-.folio{
-  top: 2%;
-  left: 5%;
-  position: absolute;
-  font-size: .9rem;
-  font-weight: bolder;
-}
-.lang{
-  top: 2%;
-  right: 5%;
-  position: absolute;
-  font-size: .9rem;
-  font-weight: bolder;
-}
-.theme-btn{
-  top: 2%;
-  position: absolute;
-}
+
 /* modal estilos*/
 
 .modal{
@@ -240,4 +251,17 @@ body {
   font-size: 48px;
   font-weight: bold;
   color: var(--red);
+}
+
+/* ================ modo oscuro ==================== */
+
+.dark{
+  .modal{
+    &-wrap{
+      background: var(--dark-bg);
+    }
+  }
+  .mainHero button, .name{
+    color: var(--beige)
+  }
 }

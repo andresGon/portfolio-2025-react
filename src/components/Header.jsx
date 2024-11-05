@@ -10,14 +10,18 @@ const Header = () =>{
     const { theme, toggleTheme } = useContext(ThemeContext); // Asegúrate de que no sea undefined
 
     return(
-        <div>
+        <div className='header'>
             <div className="folio">{t('folio')} 2024</div>
-          <button className='theme-btn' onClick={toggleTheme}>
-            {theme === 'light' ? 'Dark' : 'Light'}
-            </button>
-          <div className="lang" onClick={() => changeLanguage(i18n.language === 'es' ? 'en' : 'es')}>
-            {i18n.language === 'es' ? 'Esp' : 'Eng'}
-          </div>
+            <div className='header-col'>
+            <div className="lang" onClick={() => changeLanguage(i18n.language === 'es' ? 'en' : 'es')}>
+                    {i18n.language === 'es' ? 'Esp' : 'Eng'}
+                </div>
+                <div className='theme-btn' onClick={toggleTheme}>
+                    {theme === 'light' ? '🌘' : '☀️'}
+                </div>
+            </div>
+            
+        
         </div>
     )
 }
