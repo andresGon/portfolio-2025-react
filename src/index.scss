@@ -78,6 +78,24 @@
   font-weight: 900;
   font-style: normal;
 }
+/* modo estilos*/
+body.light {
+  background-color: var(--beige);
+}
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.mainHero.light {
+  // Estilos para el tema claro
+}
+
+.mainHero.dark {
+  // Estilos para el tema oscuro
+}
+
 
 body {
   margin: 0;
@@ -157,7 +175,10 @@ body {
   font-size: .9rem;
   font-weight: bolder;
 }
-
+.theme-btn{
+  top: 2%;
+  position: absolute;
+}
 /* modal estilos*/
 
 .modal{
