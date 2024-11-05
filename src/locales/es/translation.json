@@ -2,7 +2,9 @@
     "folio": "Folio",
     "front_end_ui_developer": "Desarrollador Front end / UI",
     "work": "Trabajo",
-    "skills": "Habilidades",
-    "about_me": "Sobre mí",
-    "contact": "Contacto"
+    "skills": "Habilidad",
+    "about_me": "Experiencia",
+    "contact": "Mensaje",
+    "title_work":"Trabajo",
+    "text_work":"Esta es una lista de proyectos en los que he trabajado y participado en los últimos 5 años."
   }

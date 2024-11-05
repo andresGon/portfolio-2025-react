@@ -27,6 +27,24 @@
   }
 }
 
+@keyframes DarkBounceColor {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px);
+    color: var(--beige); /* Color en el punto alto del rebote */
+  }
+  60% {
+    transform: translateY(0);
+    color: var(--red); /* Color en el regreso */
+  }
+  100% {
+    transform: translateY(0);
+    color: var(--beige); /* Vuelve al color inicial */
+  }
+}
+
 .char {
   animation: bounceColor 1.5s ease-in-out infinite;
   animation-delay: calc(var(--index) * 0.15s);
@@ -88,14 +106,6 @@ body.dark {
   background-color: var(--dark-bg);
 }
 
-.mainHero.light {
-  // Estilos para el tema claro
-}
-
-.mainHero.dark {
-  // Estilos para el tema oscuro
-}
-
 
 body {
   margin: 0;
@@ -108,15 +118,17 @@ body {
 
 /* ======== header =======*/
 .header{
-  width: 100%;
-  padding: 14px 0;
+  width: 90%;
+  max-width: 920px;
+  padding: 14px 5%;
+  margin: auto;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   display: flex;
   flex-flow: row;
-  justify-content: space-around;
+  justify-content: space-between;
   &-col{
     display: flex;
     align-items: center;
@@ -263,5 +275,8 @@ body {
   }
   .mainHero button, .name{
     color: var(--beige)
+  }
+  .char{
+    animation-name: DarkBounceColor;
   }
 }

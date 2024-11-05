@@ -4,5 +4,7 @@
   "work": "Work",
   "skills": "Skills",
   "about_me": "About me",
-  "contact": "Contact"
+  "contact": "Contact",
+  "title_work":"Work",
+  "text_work":"This is a list of projects that I have worked and participated in the last 5 years."
 }
