@@ -18,7 +18,7 @@ const Modal = () => {
     <div className="modal slideInUp">
         <div className="modal-inner">
             <div className='modal-btnBack' onClick={()=>{handleClose()}}>
-              Cerrar
+              Cerrarr
             </div>
             <p>esta es la modal</p>
         </div>

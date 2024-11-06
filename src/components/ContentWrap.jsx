@@ -4,6 +4,7 @@ import Work from './Work';
 import Skills from './Skills';
 import About from './About';
 import Contact from './Contact';
+import iconClose from '../assets/close.svg';
 
 const ContentWrap = () =>{
     const { modalStatus, closeModal, modalContent } = useContext(modalContext)
@@ -33,8 +34,10 @@ const ContentWrap = () =>{
             <>
                 <div className="modal-wrap slideInUp">
                     <div className="modal-inner">
-                      {renderModal()}
-                      <button onClick={()=>handleClose()}>cerrar</button>
+                        <button className='modal-close' onClick={()=>handleClose()}>
+                            <img src={iconClose} alt="" />
+                        </button>
+                        {renderModal()}
                     </div>
                 </div>
                 
