@@ -7,5 +7,14 @@
     "contact": "Mensaje",
     "title_work":"Trabajo",
     "text_work":"Esta es una lista de proyectos en los que he trabajado y participado en los últimos 5 años.",
-    "title_skills":"Habilidades"
+    "title_skills":"Habilidades",
+    "text_intro_skills":"Mi principal habilidad es la maquetacíon web, me gusta trabajar con estilos y estructuras construidas desde 0, es mi prioridad transladar fielmente el diseño ha codigo web, para esta labor utilizo la suite adobe y tambien me valgo de tecnologias css3, html5 y javascript ecma 6.",
+    "ui_title_skills":"UI Diseño",
+    "ui_text_skills":"tengo experiencia en diseño de interfaces para plataformas cms, manejo de contenidos. también tengo experiencia con las suite de adobe y otros programas como figma y sketch",
+    "html_title_skills":"html5",
+    "html_text_skills":"He trabajado en este lenguaje durante los ultimos 8 años y he visto su evolución hasta la versión 5.",
+    "css_title_skills":"Css3",
+    "css_text_skills":"De la mano de html, también he visto el cambio esta cascada de estilos, pasando por el soporte a diferentes pantallas hasta las animaciones, me gusta utilizar el css puro sin frameworks.",
+    "js_title_skills":"Javascript",
+    "js_text_skills":"conozco fundamentos y puedo manipular elementos de la interfaz, he desarrollado sitios informativos en react js."
   }

@@ -132,7 +132,7 @@ body {
   &-col{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 2rem;
   }
 }
 .folio{
@@ -301,5 +301,21 @@ body {
   }
   .char{
     animation-name: DarkBounceColor;
+  }
+  .text-1, .skills-description{
+    color: #fff;
+  }
+}
+
+/* ========== skills ========*/
+.skills{
+  &-name{
+    font-weight: bold;
+    color: var(--red);
+  }
+  &-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
   }
 }

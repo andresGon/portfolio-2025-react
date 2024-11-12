@@ -7,5 +7,14 @@
   "contact": "Contact",
   "title_work":"Work",
   "text_work":"This is a list of projects that I have worked and participated in the last 5 years.",
-  "title_skills":"Skills"
+  "title_skills":"Skills",
+  "text_intro_skills":"My main skill is web layout, I like to work with styles and structures built from scratch, it is my priority to faithfully transfer the design to web code, for this work I use the adobe suite and I also use css3, html5 and javascript ecma 6 technologies.",
+  "ui_title_skills":"UI Desing",
+  "ui_text_skills":"I have experience in interface design for cms platforms, content management. I also have experience with adobe suites and other programs such as figma and sketch.",
+  "html_title_skills":"html5",
+  "html_text_skills":" have been working on this language for the last 8 years and have seen its evolution until version 5.",
+  "css_title_skills":"Css3",
+  "css_text_skills":"Hand in hand with html, I have also seen this cascade of styles change, going through the support for different screens to animations, I like to use pure css without frameworks.",
+  "js_title_skills":"Javascript",
+  "js_text_skills":"I know fundamentals and I can manipulate elements of the interface, I have developed informative sites in react js."
 }
