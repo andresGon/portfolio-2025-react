@@ -129,6 +129,7 @@ body {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
+  z-index: 10;
   &-col{
     display: flex;
     align-items: center;
@@ -312,10 +313,19 @@ body {
   &-name{
     font-weight: bold;
     color: var(--red);
+    margin: .4rem 0 0 0;
   }
   &-grid{
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 10px;
+  }
+  &-description{
+    margin: .1rem 0 0 0;
+  }
+  &-box{
+    .text-1{
+      margin: .1rem 0 .5rem 0;
+    }
   }
 }
