@@ -16,5 +16,11 @@
     "css_title_skills":"Css3",
     "css_text_skills":"De la mano de html, también he visto el cambio esta cascada de estilos, pasando por el soporte a diferentes pantallas hasta las animaciones, me gusta utilizar el css puro sin frameworks.",
     "js_title_skills":"Javascript",
-    "js_text_skills":"conozco fundamentos y puedo manipular elementos de la interfaz, he desarrollado sitios informativos en react js."
+    "js_text_skills":"conozco fundamentos y puedo manipular elementos de la interfaz, he desarrollado sitios informativos en react js.",
+    "title_About":"Experiencia",
+    "description_About":"Esta es una línea de tiempo de mi experiencia laboral en el campo del desarrollo web",
+    "about_charge_1":"Maquetador web",
+    "about_description_1":"Descripcion books español",
+    "about_charge_2":"Maquetador web",
+    "about_description_2":"Descripcion dasigno español"
   }

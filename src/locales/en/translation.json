@@ -16,5 +16,11 @@
   "css_title_skills":"Css3",
   "css_text_skills":"Hand in hand with html, I have also seen this cascade of styles change, going through the support for different screens to animations, I like to use pure css without frameworks.",
   "js_title_skills":"Javascript",
-  "js_text_skills":"I know fundamentals and I can manipulate elements of the interface, I have developed informative sites in react js."
+  "js_text_skills":"I know fundamentals and I can manipulate elements of the interface, I have developed informative sites in react js.",
+  "title_About":"About me",
+  "description_About":"This is a timeline of my work experience in the field of web development",
+  "about_charge_1":"UI Developer",
+  "about_description_1":"Descripcion books ingles",
+  "about_charge_2":"UI Developer",
+  "about_description_2":"Descripcion dasigno español"
 }
