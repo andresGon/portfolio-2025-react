@@ -21,6 +21,10 @@
   "description_About":"This is a timeline of my work experience in the field of web development",
   "about_charge_1":"UI Developer",
   "about_description_1":"Descripcion books ingles",
-  "about_charge_2":"UI Developer",
-  "about_description_2":"Descripcion dasigno español"
+  "about_charge_2":"UI designer / developer",
+  "about_description_2":"During my time at Dasigno, I worked as a web interface designer and front-end developer, contributing to various projects focused on entities and institutions across Colombia. I used technologies like HTML and CSS3 to develop functional and visually appealing interfaces tailored to each client's needs.",
+  "about_charge_3":"front end developer",
+  "about_description_3":"In my experience at Titamedia, I worked as a front-end developer specializing in digital commerce for Latin America. I utilized VTEX Legacy and VTEX IO to customize stores tailored to different devices and developed advanced features with React.js, ensuring efficient and engaging user experiences across various platforms.",
+  "about_charge_4":"UI developer",
+  "about_description_4":"During my time at Cluvi, a startup in the gastronomy sector, I specialized in developing and customizing user interfaces for digital restaurant menus across Latin America. Using technologies such as Vue.js 3, Sass, and JavaScript, I designed optimized solutions for both mobile and desktop devices, ensuring an attractive and functional user experience."
 }

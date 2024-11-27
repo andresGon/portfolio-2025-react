@@ -303,7 +303,7 @@ body {
   .char{
     animation-name: DarkBounceColor;
   }
-  .text-1, .skills-description{
+  .text-1, .skills-description, .timeLine-title, .timeLine-charge, .timeLine-text{
     color: #fff;
   }
 }
@@ -327,5 +327,33 @@ body {
     .text-1{
       margin: .1rem 0 .5rem 0;
     }
+  }
+}
+/* ================= about me ===========*/
+.timeLine{
+  &-wrap{
+    display: flex;
+    flex-flow:column-reverse;
+    align-items: flex-start;
+    gap: .8rem;
+    padding: 0 0 0 1rem;
+    border-left: 1px solid var(--red);
+  }
+  &-item{
+    display: flex;
+    flex-flow: column;
+    gap: .2rem;
+  }
+  &-years{
+    background: var(--red);
+    color: #fff;
+    width: 85px;
+    padding: 2px 0;
+    text-align: center;
+    font-size: .9rem;
+    margin-left: -1rem;
+  }
+  &-title{
+    font-weight: bold;
   }
 }
