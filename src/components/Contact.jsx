@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
+import { useTranslation } from 'react-i18next'; 
 import Notification from './Notification';
 
 const Contact = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -74,8 +76,8 @@ const Contact = () => {
         />
       )}
 
-    <div className="title-1">Contacto</div>
-    <p className="text-1">Envíame un mensaje, te responderé lo más pronto posible.</p>
+    <div className="title-1">{t('contac_title')}</div> 
+    <p className="text-1">{t('contact_intro')}</p>
 
       <form onSubmit={handleSubmit} className='form'>
         <label>

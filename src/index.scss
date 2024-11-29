@@ -131,6 +131,7 @@ body {
   justify-content: space-between;
   z-index: 10;
   background: var(--beige);
+  transition: .3s;
   &-col{
     display: flex;
     align-items: center;
@@ -468,6 +469,6 @@ body {
     grid-template-columns: 100%;
   }
   html{
-    font-size: 13px;
+    font-size: 13.5px;
   }
 }
