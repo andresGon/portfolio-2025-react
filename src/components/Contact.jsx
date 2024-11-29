@@ -74,7 +74,10 @@ const Contact = () => {
         />
       )}
 
-      <form onSubmit={handleSubmit}>
+    <div className="title-1">Contacto</div>
+    <p className="text-1">Envíame un mensaje, te responderé lo más pronto posible.</p>
+
+      <form onSubmit={handleSubmit} className='form'>
         <label>
           Nombre:
           <input type="text" name="name" value={formData.name} onChange={handleChange} required />
