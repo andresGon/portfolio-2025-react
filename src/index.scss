@@ -230,7 +230,7 @@ body {
     width: 38px;
     height: 38px;
     border-radius: 50%;
-    background: var(--red);
+    background:none;
     border: none;
     position: absolute;
     top: 10px;
@@ -245,7 +245,7 @@ body {
       transform: rotate(180deg);
     }
     img{
-      width: 70%;
+      width: 100%;
     }
   }
 }

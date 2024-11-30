@@ -1,3 +1,19 @@
-<svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M4 4L1 1M4 4L7 7M4 4L7 1M4 4L1 7" stroke="#F9F4D4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<?xml version="1.0" ?>
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #E40038;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title />
+  <g id="cross">
+    <line class="cls-1" x1="7" x2="25" y1="7" y2="25" />
+    <line class="cls-1" x1="7" x2="25" y1="25" y2="7" />
+  </g>
 </svg>
