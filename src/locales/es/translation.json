@@ -8,7 +8,7 @@
     "title_work":"Trabajo",
     "text_work":"Esta es una lista de proyectos en los que he trabajado y participado en los últimos 5 años.",
     "title_skills":"Habilidades",
-    "text_intro_skills":"Mi principal habilidad es la maquetacíon web, me gusta trabajar con estilos y estructuras construidas desde 0, es mi prioridad transladar fielmente el diseño ha codigo web, para esta labor utilizo la suite adobe y tambien me valgo de tecnologias css3, html5 y javascript ecma 6.",
+    "text_intro_skills":"Tengo experiencia en el desarrollo front-end con <b>React</b>, <b>Vue</b> y <b>Next.js</b>, creando interfaces dinámicas y optimizadas. Me especializo en el uso de <b>CSS3</b> para diseñar experiencias interactivas, implementando animaciones fluidas y transiciones avanzadas para mejorar la usabilidad. Trabajo con <b>Tailwind</b> CSS para agilizar el desarrollo y asegurar estilos consistentes, además de <b>HTML5</b> y <b>JavaScript</b> (ECMAScript 6) para estructurar y dar funcionalidad a las aplicaciones. También tengo conocimientos en bases de datos como <b>MongoDB</b> y <b>SQL</b>, y he trabajado con <b>Strapi</b> como CMS para gestionar contenido de manera eficiente.",
     "ui_title_skills":"UI Diseño",
     "ui_text_skills":"tengo experiencia en diseño de interfaces para plataformas cms, manejo de contenidos. también tengo experiencia con las suite de adobe y otros programas como figma y sketch",
     "html_title_skills":"html5",
@@ -28,5 +28,6 @@
     "about_charge_4":"Desarrollador interfaz usuario",
     "about_description_4":"En mi experiencia laboral en Cluvi, una startup del sector gastronómico, me especialicé en el desarrollo y personalización de interfaces de usuario para menús digitales de restaurantes en Latinoamérica. Utilizando tecnologías como Vue.js 3, Sass y JavaScript, diseñé soluciones optimizadas para dispositivos móviles y de escritorio, garantizando una experiencia atractiva y funcional para los usuarios.",
     "contac_title":"¿Charlamos?",
-    "contact_intro":"¡Me encantaría saber de ti! Ya sea que tengas un proyecto en mente, una pregunta o simplemente quieras saludar, no dudes en escribirme. Llena el formulario abajo, haz clic en 'Enviar' y ¡comencemos la conversación!"
+    "contact_intro":"¡Me encantaría saber de ti! Ya sea que tengas un proyecto en mente, una pregunta o simplemente quieras saludar, no dudes en escribirme. Llena el formulario abajo, haz clic en 'Enviar' y ¡comencemos la conversación!",
+    "work_item_description_1":"Fuego y Maíz es un menú digital para restaurantes, desarrollado con React.js y optimizado para dispositivos móviles, garantizando una experiencia fluida e intuitiva para los usuarios. Su diseño responsivo permite una navegación ágil, destacando cada platillo con descripciones detalladas e imágenes atractivas. La aplicación ofrece una interfaz moderna y personalizable, permitiendo a los restaurantes actualizar su menú de manera dinámica y eficiente. Gracias a su enfoque en el rendimiento y accesibilidad, Fuego y Maíz mejora la experiencia del cliente y optimiza la gestión del restaurante en la era digital."
   }

@@ -1,4 +1,4 @@
-import { useTranslation } from 'react-i18next'; 
+import { useTranslation, Trans } from 'react-i18next'; 
 function Skills() {
     const { t } = useTranslation();
     return(
@@ -6,7 +6,7 @@ function Skills() {
             <div className='skills-box'>
             <div className="title-1">{t('title_skills')}</div>
             <p className="text-1">
-                {t('text_intro_skills')}
+                <Trans i18nKey="text_intro_skills" components={{ b: <b /> }} />
             </p>
             </div>
             <div className='skills-grid'>

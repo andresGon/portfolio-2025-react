@@ -11,7 +11,7 @@ const Header = () =>{
 
     return(
         <div className='header'>
-            <div className="folio">{t('folio')} 2024</div>
+            <div className="folio">{t('folio')} 2025</div>
             <div className='header-col'>
             <div className="lang" onClick={() => changeLanguage(i18n.language === 'es' ? 'en' : 'es')}>
                     {i18n.language === 'es' ? 'Eng' : 'Esp'}

@@ -8,7 +8,7 @@
   "title_work":"Work",
   "text_work":"This is a list of projects that I have worked and participated in the last 5 years.",
   "title_skills":"Skills",
-  "text_intro_skills":"My main skill is web layout, I like to work with styles and structures built from scratch, it is my priority to faithfully transfer the design to web code, for this work I use the adobe suite and I also use css3, html5 and javascript ecma 6 technologies.",
+  "text_intro_skills":"I have experience in front-end development with <b>React</b>, <b>Vue</b>, and <b>Next.js</b>, building dynamic and optimized interfaces. I specialize in using <b>CSS3</b> to create interactive experiences, implementing smooth animations and advanced transitions to enhance usability. I work with <b>Tailwind CSS</b> to speed up development and ensure consistent styling, along with <b>HTML5</b> and <b>JavaScript</b> (ECMAScript 6) for structuring and adding functionality to applications. I also have knowledge of databases like <b>MongoDB</b> and <b>SQL</b>, and I have worked with <b>Strapi</b> as a CMS for efficient content management.",
   "ui_title_skills":"UI Desing",
   "ui_text_skills":"I have experience in interface design for cms platforms, content management. I also have experience with adobe suites and other programs such as figma and sketch.",
   "html_title_skills":"html5",
@@ -28,5 +28,6 @@
   "about_charge_4":"UI developer",
   "about_description_4":"During my time at Cluvi, a startup in the gastronomy sector, I specialized in developing and customizing user interfaces for digital restaurant menus across Latin America. Using technologies such as Vue.js 3, Sass, and JavaScript, I designed optimized solutions for both mobile and desktop devices, ensuring an attractive and functional user experience.",
   "contac_title":"Shall we chat?",
-  "contact_intro":"I’d love to hear from you! Whether you have a project in mind, a question, or just want to say hi, don’t hesitate to reach out. Fill out the form below, hit 'Send,' and let’s start the conversation!"
+  "contact_intro":"I’d love to hear from you! Whether you have a project in mind, a question, or just want to say hi, don’t hesitate to reach out. Fill out the form below, hit 'Send,' and let’s start the conversation!",
+  "work_item_description_1":"Fuego y Maíz is a digital menu for Mexican, built with React.js and optimized for mobile devices, ensuring a smooth and intuitive user experience. Its responsive design allows for seamless navigation, showcasing each dish with detailed descriptions and appealing images. The application features a modern and customizable interface, enabling restaurants to update their menu dynamically and efficiently. With a strong focus on performance and accessibility, Fuego y Maíz enhances the customer experience while optimizing restaurant management in the digital age."
 }
